@@ -1,0 +1,286 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Righteous';
+}
+
+/* Heading */
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+
+/* Animation */
+
+.wrapper{
+  height: 50px;
+  overflow: hidden;
+  font-family: "Righteous"
+}
+
+.title-wrapper {
+  height: 100%;
+  animation:  move 10s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes move {
+  25%{
+    transform: translateY(-50px);
+  }
+
+  50%{
+    transform: translateY(-100px);
+  }
+
+
+
+}
+
+.items{
+  height: 50px;
+  color: #fff;
+  margin-top: 1%;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+
+.aboutme {
+
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+.info {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+#title {
+  /* background-color:  #B762C1; */
+background-image: linear-gradient( 108deg,  rgba(0,166,81,1) 9.3%, rgba(0,209,174,1) 118.3% );
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0%;
+  font-family: 'Righteous'
+}
+
+/* Title-Image */
+.title-img {
+
+  top: 20%;
+  width: 28%;
+  height: 65%;
+  position: absolute;
+  left: 62%;
+}
+
+
+
+/* Features Section */
+#skills {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.skills-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Righteous'
+
+}
+
+.skills-box {
+  text-align: center;
+  padding: 5%;
+}
+
+  .icon {
+    color: #00001E;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color:   rgba(0,166,81,1)  ;
+  }
+
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-image: linear-gradient( 108deg,  rgba(0,166,81,1) 9.3%, rgba(0,209,174,1) 118.3% );
+  color: #ffffff;
+}
+
+.testimonial-text {
+  margin: 5%;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: 'Righteous'
+}
+
+
+
+.carousel-item {
+  padding: 1% 8% 1%;
+}
+
+hr{
+  border: dotted #ffffff 6px;
+  border-bottom: none;
+  background-image: linear-gradient( 108deg,  rgba(0,166,81,1) 9.3%, rgba(0,209,174,1) 118.3% );
+  width: 8%;
+  margin: 100px auto;
+}
+
+
+
+/* Pricing */
+#project {
+  padding: 100px;
+  text-align: center;
+}
+
+.project-heading {
+
+  font-family: 'Righteous';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+    padding-top: 5%;
+
+  }
+
+  .big-heading {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+
+  }
+
+  .title-img {
+    width: 100%;
+    height: 110%;
+    margin-left:15%;
+    position: static;
+    margin-top: 3%;
+    transform: rotate(0);
+  }
+
+
+
+  .title-wrapper{
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    margin-left: 34%;
+  }
+
+
+
+}
+
+/* CTA section */
+#getintouch {
+  background-image:  linear-gradient( 108deg,  rgba(0,166,81,1) 9.3%, rgba(0,209,174,1) 118.3% );
+  text-align: center;
+  /* padding: 7% 15%; */
+  padding: 6% 8% 4%;
+  color: #ffffff;
+}
+
+.get-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: 'Righteous';
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.social-btn {
+  margin: 20px 10px;
+}
+
+.foot-icons {
+  color: #00001E;
+}
+
+.btn-outline-warning {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+
+}
